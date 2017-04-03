@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\RepositoryTests\bin\Debug\RepositoryTests.dll" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-03-29" time="16:09:41">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\OpenCover\a308e31b-3639-42e5-98aa-9f29884efe6d" machine-name="TRNLDS12575" user="christopher.e" user-domain="FDMGROUP" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\RepositoryTests\bin\Debug\RepositoryTests.dll" executed="True" result="Success" success="True" time="1.413" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="UnitTests" executed="True" result="Success" success="True" time="1.408" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="RepositoryTests" executed="True" result="Success" success="True" time="1.407" asserts="0">
+            <results>
+              <test-case name="UnitTests.RepositoryTests.Test_GetAll_ReturnsCustomerID_WhenCalled" executed="True" result="Success" success="True" time="1.344" asserts="1" />
+              <test-case name="UnitTests.RepositoryTests.Test_GetAll_ReturnsProductsID_WhenCalled" executed="True" result="Success" success="True" time="0.017" asserts="1" />
+              <test-case name="UnitTests.RepositoryTests.Test_GetAll_ReturnsShoppingCartID_WhenCalled" executed="True" result="Success" success="True" time="0.018" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

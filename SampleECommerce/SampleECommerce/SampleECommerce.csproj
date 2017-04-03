@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9B08401-AAE0-4324-B6DB-8DE3F85ED4DB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SampleECommerce</RootNamespace>
+    <AssemblyName>SampleECommerce</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ECommerceEntities.cs" />
+    <Compile Include="Migrations\201703151758307_ECommerceData.cs" />
+    <Compile Include="Migrations\201703151758307_ECommerceData.Designer.cs">
+      <DependentUpon>201703151758307_ECommerceData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703161132117_AddedFieldLength.cs" />
+    <Compile Include="Migrations\201703161132117_AddedFieldLength.Designer.cs">
+      <DependentUpon>201703161132117_AddedFieldLength.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703211431029_AddData.cs" />
+    <Compile Include="Migrations\201703211431029_AddData.Designer.cs">
+      <DependentUpon>201703211431029_AddData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703231535544_IgnoreClasses.cs" />
+    <Compile Include="Migrations\201703231535544_IgnoreClasses.Designer.cs">
+      <DependentUpon>201703231535544_IgnoreClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703231537252_AddedFind.cs" />
+    <Compile Include="Migrations\201703231537252_AddedFind.Designer.cs">
+      <DependentUpon>201703231537252_AddedFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703241521127_test1.cs" />
+    <Compile Include="Migrations\201703241521127_test1.Designer.cs">
+      <DependentUpon>201703241521127_test1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703241706234_addedShoppingCart.cs" />
+    <Compile Include="Migrations\201703241706234_addedShoppingCart.Designer.cs">
+      <DependentUpon>201703241706234_addedShoppingCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703271524020_AddedPrice.cs" />
+    <Compile Include="Migrations\201703271524020_AddedPrice.Designer.cs">
+      <DependentUpon>201703271524020_AddedPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703271540527_DeletePrice.cs" />
+    <Compile Include="Migrations\201703271540527_DeletePrice.Designer.cs">
+      <DependentUpon>201703271540527_DeletePrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703271541181_AddedPriceDouble.cs" />
+    <Compile Include="Migrations\201703271541181_AddedPriceDouble.Designer.cs">
+      <DependentUpon>201703271541181_AddedPriceDouble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703271546533_DeletedPriceDoubleAgain.cs" />
+    <Compile Include="Migrations\201703271546533_DeletedPriceDoubleAgain.Designer.cs">
+      <DependentUpon>201703271546533_DeletedPriceDoubleAgain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703271548243_AddedDecimal.cs" />
+    <Compile Include="Migrations\201703271548243_AddedDecimal.Designer.cs">
+      <DependentUpon>201703271548243_AddedDecimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703281551500_RemovedUserName.cs" />
+    <Compile Include="Migrations\201703281551500_RemovedUserName.Designer.cs">
+      <DependentUpon>201703281551500_RemovedUserName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703291401330_MadePropertiesVirtual.cs" />
+    <Compile Include="Migrations\201703291401330_MadePropertiesVirtual.Designer.cs">
+      <DependentUpon>201703291401330_MadePropertiesVirtual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703300954047_ReAddedUserdtailsFNameSName.cs" />
+    <Compile Include="Migrations\201703300954047_ReAddedUserdtailsFNameSName.Designer.cs">
+      <DependentUpon>201703300954047_ReAddedUserdtailsFNameSName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModelPOCO\ModelPOCO.csproj">
+      <Project>{cb508db9-aea4-44b0-9280-ad7f25515616}</Project>
+      <Name>ModelPOCO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201703151758307_ECommerceData.resx">
+      <DependentUpon>201703151758307_ECommerceData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703161132117_AddedFieldLength.resx">
+      <DependentUpon>201703161132117_AddedFieldLength.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703211431029_AddData.resx">
+      <DependentUpon>201703211431029_AddData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703231535544_IgnoreClasses.resx">
+      <DependentUpon>201703231535544_IgnoreClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703231537252_AddedFind.resx">
+      <DependentUpon>201703231537252_AddedFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703241521127_test1.resx">
+      <DependentUpon>201703241521127_test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703241706234_addedShoppingCart.resx">
+      <DependentUpon>201703241706234_addedShoppingCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703271524020_AddedPrice.resx">
+      <DependentUpon>201703271524020_AddedPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703271540527_DeletePrice.resx">
+      <DependentUpon>201703271540527_DeletePrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703271541181_AddedPriceDouble.resx">
+      <DependentUpon>201703271541181_AddedPriceDouble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703271546533_DeletedPriceDoubleAgain.resx">
+      <DependentUpon>201703271546533_DeletedPriceDoubleAgain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703271548243_AddedDecimal.resx">
+      <DependentUpon>201703271548243_AddedDecimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703281551500_RemovedUserName.resx">
+      <DependentUpon>201703281551500_RemovedUserName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703291401330_MadePropertiesVirtual.resx">
+      <DependentUpon>201703291401330_MadePropertiesVirtual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703300954047_ReAddedUserdtailsFNameSName.resx">
+      <DependentUpon>201703300954047_ReAddedUserdtailsFNameSName.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

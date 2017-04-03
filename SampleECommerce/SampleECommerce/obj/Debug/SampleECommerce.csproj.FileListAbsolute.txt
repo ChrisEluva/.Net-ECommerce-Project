@@ -1,0 +1,43 @@
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.csprojResolveAssemblyReference.cache
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\bin\Debug\SampleECommerce.dll
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\bin\Debug\SampleECommerce.pdb
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\bin\Debug\EntityFramework.dll
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\bin\Debug\EntityFramework.SqlServer.dll
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\bin\Debug\ModelPOCO.dll
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\bin\Debug\ModelPOCO.pdb
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\bin\Debug\EntityFramework.xml
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\bin\Debug\EntityFramework.SqlServer.xml
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.dll
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.pdb
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\bin\Debug\SampleECommerce.dll.config
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.ECommerceData.resources
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.csproj.GenerateResource.Cache
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.AddedFieldLength.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\bin\Debug\SampleECommerce.dll.config
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\bin\Debug\SampleECommerce.dll
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\bin\Debug\SampleECommerce.pdb
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\bin\Debug\EntityFramework.dll
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\bin\Debug\ModelPOCO.dll
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\bin\Debug\ModelPOCO.pdb
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\bin\Debug\EntityFramework.xml
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.csprojResolveAssemblyReference.cache
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.ECommerceData.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.AddedFieldLength.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.AddData.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.IgnoreClasses.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.AddedFind.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.test1.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.addedShoppingCart.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.AddedPrice.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.DeletePrice.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.AddedPriceDouble.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.DeletedPriceDoubleAgain.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.AddedDecimal.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.RemovedUserName.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.csproj.GenerateResource.Cache
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.dll
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.pdb
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.MadePropertiesVirtual.resources
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\SampleECommerce\obj\Debug\SampleECommerce.Migrations.ReAddedUserdtailsFNameSName.resources

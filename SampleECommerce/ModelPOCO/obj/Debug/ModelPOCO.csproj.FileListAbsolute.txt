@@ -1,0 +1,9 @@
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\ModelPOCO\bin\Debug\ModelPOCO.dll
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\ModelPOCO\bin\Debug\ModelPOCO.pdb
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\ModelPOCO\obj\Debug\ModelPOCO.csprojResolveAssemblyReference.cache
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\ModelPOCO\obj\Debug\ModelPOCO.dll
+\\FILBTN002\trainees\Christopher.E\Visual Studio 2013\Projects\Test\SampleECommerce\ModelPOCO\obj\Debug\ModelPOCO.pdb
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\ModelPOCO\bin\Debug\ModelPOCO.dll
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\ModelPOCO\bin\Debug\ModelPOCO.pdb
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\ModelPOCO\obj\Debug\ModelPOCO.dll
+C:\Users\christopher.e\Desktop\DotNet\SampleECommerce\ModelPOCO\obj\Debug\ModelPOCO.pdb

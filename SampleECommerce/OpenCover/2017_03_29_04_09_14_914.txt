@@ -1,0 +1,3 @@
+UnitTests.RepositoryTests.Test_GetAll_ReturnsCustomerID_WhenCalled
+UnitTests.RepositoryTests.Test_GetAll_ReturnsProductsID_WhenCalled
+UnitTests.RepositoryTests.Test_GetAll_ReturnsShoppingCartID_WhenCalled

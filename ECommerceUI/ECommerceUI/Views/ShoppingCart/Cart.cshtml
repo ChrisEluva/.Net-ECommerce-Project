@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "Cart";
+}
+
+<h2>Cart</h2>
+
+@using ECommerceUI.Controllers
+
+<table class="table">
+    <tr>
+        <th>
+            Product ID
+        </th>
+        <th>
+            ProductName
+        </th>
+        <th>
+            SupplierID
+        </th>
+        <th>
+            Quantity
+        </th>
+        <th>
+            Price
+        </th>
+        <th></th>
+    </tr>
+    @{
+        decimal s = 0;
+    }
+    @foreach (Items item in (List<Items>)Session["cart"])
+    {
+        s = s + item.Prdt.Price * item.Quantity;
+
+        <tr>
+            <td>
+                @item.Prdt.ProductsID
+            </td>
+            <td>
+                @item.Prdt.ProductName
+            </td>
+            <td>
+                @item.Prdt.SupplierID
+            </td>
+            <td>
+                @item.Quantity
+            </td>
+            <td>
+                @(item.Prdt.Price * item.Quantity)
+            </td>
+            <td>
+
+                @*@Html.ActionLink("Details", "Details", "Product", new { id = item.Prdt.ProductsID }, null) |*@
+                @Html.ActionLink("Delete", "Delete", "ShoppingCart", new { id = item.Prdt.ProductsID }, null)
+            </td>
+        </tr>
+    }
+    <tr>
+        <th>
+            Total
+        </th>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td>@s</td>
+    </tr>
+</table>
+<br />
+@Html.ActionLink("Continue Shopping ", "Index", "Products") |
+@Html.ActionLink(" Check Out", "Index", "Products")

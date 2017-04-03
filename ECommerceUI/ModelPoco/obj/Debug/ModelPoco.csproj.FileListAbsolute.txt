@@ -1,0 +1,5 @@
+C:\Users\christopher.e\DotNet\ECommerceUI\ModelPoco\bin\Debug\ModelPoco.dll
+C:\Users\christopher.e\DotNet\ECommerceUI\ModelPoco\bin\Debug\ModelPoco.pdb
+C:\Users\christopher.e\DotNet\ECommerceUI\ModelPoco\obj\Debug\ModelPoco.csprojResolveAssemblyReference.cache
+C:\Users\christopher.e\DotNet\ECommerceUI\ModelPoco\obj\Debug\ModelPoco.dll
+C:\Users\christopher.e\DotNet\ECommerceUI\ModelPoco\obj\Debug\ModelPoco.pdb

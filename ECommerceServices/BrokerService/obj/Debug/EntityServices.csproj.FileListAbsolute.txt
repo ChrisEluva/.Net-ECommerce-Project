@@ -1,0 +1,13 @@
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\obj\Debug\EntityServices.csprojResolveAssemblyReference.cache
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\bin\Debug\BrokerService.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\bin\Debug\BrokerService.pdb
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\bin\Debug\ModelPOCO.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\bin\Debug\Repository.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\bin\Debug\SampleECommerce.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\bin\Debug\EntityFramework.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\bin\Debug\ModelPOCO.pdb
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\bin\Debug\Repository.pdb
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\bin\Debug\SampleECommerce.pdb
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\bin\Debug\EntityFramework.xml
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\obj\Debug\BrokerService.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\BrokerService\obj\Debug\BrokerService.pdb

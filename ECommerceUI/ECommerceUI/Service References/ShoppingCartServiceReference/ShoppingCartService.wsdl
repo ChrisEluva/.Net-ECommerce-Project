@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ShoppingCartService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:62072/ShoppingCartService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:62072/ShoppingCartService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:62072/ShoppingCartService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ModelPOCO" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IShoppingCartServices_CartGetAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:CartGetAll" />
+  </wsdl:message>
+  <wsdl:message name="IShoppingCartServices_CartGetAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CartGetAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShoppingCartServices_CartAdd_InputMessage">
+    <wsdl:part name="parameters" element="tns:CartAdd" />
+  </wsdl:message>
+  <wsdl:message name="IShoppingCartServices_CartAdd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CartAddResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShoppingCartServices_UpdateCart_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCart" />
+  </wsdl:message>
+  <wsdl:message name="IShoppingCartServices_UpdateCart_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCartResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShoppingCartServices_DeleteCart_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCart" />
+  </wsdl:message>
+  <wsdl:message name="IShoppingCartServices_DeleteCart_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCartResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShoppingCartServices_FindCart_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindCart" />
+  </wsdl:message>
+  <wsdl:message name="IShoppingCartServices_FindCart_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindCartResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IShoppingCartServices">
+    <wsdl:operation name="CartGetAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShoppingCartServices/CartGetAll" message="tns:IShoppingCartServices_CartGetAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShoppingCartServices/CartGetAllResponse" message="tns:IShoppingCartServices_CartGetAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CartAdd">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShoppingCartServices/CartAdd" message="tns:IShoppingCartServices_CartAdd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShoppingCartServices/CartAddResponse" message="tns:IShoppingCartServices_CartAdd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCart">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShoppingCartServices/UpdateCart" message="tns:IShoppingCartServices_UpdateCart_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShoppingCartServices/UpdateCartResponse" message="tns:IShoppingCartServices_UpdateCart_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCart">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShoppingCartServices/DeleteCart" message="tns:IShoppingCartServices_DeleteCart_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShoppingCartServices/DeleteCartResponse" message="tns:IShoppingCartServices_DeleteCart_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindCart">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShoppingCartServices/FindCart" message="tns:IShoppingCartServices_FindCart_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShoppingCartServices/FindCartResponse" message="tns:IShoppingCartServices_FindCart_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IShoppingCartServices" type="tns:IShoppingCartServices">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CartGetAll">
+      <soap:operation soapAction="http://tempuri.org/IShoppingCartServices/CartGetAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CartAdd">
+      <soap:operation soapAction="http://tempuri.org/IShoppingCartServices/CartAdd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCart">
+      <soap:operation soapAction="http://tempuri.org/IShoppingCartServices/UpdateCart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCart">
+      <soap:operation soapAction="http://tempuri.org/IShoppingCartServices/DeleteCart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindCart">
+      <soap:operation soapAction="http://tempuri.org/IShoppingCartServices/FindCart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ShoppingCartService">
+    <wsdl:port name="BasicHttpBinding_IShoppingCartServices" binding="tns:BasicHttpBinding_IShoppingCartServices">
+      <soap:address location="http://localhost:62072/ShoppingCartService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

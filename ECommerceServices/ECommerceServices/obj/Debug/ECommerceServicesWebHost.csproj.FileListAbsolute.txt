@@ -1,0 +1,16 @@
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\ECommerceServices.dll.config
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\ECommerceServices.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\ECommerceServices.pdb
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\ModelPOCO.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\Repository.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\SampleECommerce.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\EntityFramework.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\ModelPOCO.pdb
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\Repository.pdb
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\SampleECommerce.pdb
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\EntityFramework.xml
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\obj\Debug\ECommerceServicesWebHost.csprojResolveAssemblyReference.cache
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\obj\Debug\ECommerceServices.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\obj\Debug\ECommerceServices.pdb
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\BrokerService.dll
+C:\Users\christopher.e\DotNet\ECommerceServices\ECommerceServices\bin\BrokerService.pdb
